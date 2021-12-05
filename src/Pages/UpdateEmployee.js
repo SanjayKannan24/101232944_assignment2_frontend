@@ -32,7 +32,6 @@ export default function UpdateEmployee({}) {
     return (
         <div id="content">
             <h1>Update Employee</h1>
-            <h1>{id}</h1>
             <form onSubmit={(e) => updateEmployee(e)} >
                 <label>First Name : </label>
                 <input type="text"

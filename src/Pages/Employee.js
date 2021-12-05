@@ -28,7 +28,7 @@ export default function Employee({setId}) {
                             
                     })
                     setEmployeeInfo(newEmployeeInfo);
-                    
+                    alert("Deleted successfully");
                 }
             });
             
